@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "SourceSansPro";
+	src: url("SourceSansPro-Regular.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SourceSansPro";
+	src: url("SourceSansPro-Light.otf");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SourceSansPro";
+	src: url("SourceSansPro-Bold.otf");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SourceSansPro";
+	src: url("SourceSansPro-Black.otf");
+	font-weight: 900;
+	font-style: normal;
+}

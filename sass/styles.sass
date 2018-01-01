@@ -15,9 +15,72 @@ ul li
   display: table
   clear: both
 
-
 img
   max-width: 100%
 
 .wrapper
   overflow: hidden
+  max-width: 1210px
+  padding: 0 20px
+  margin: 75px auto 95px auto
+
+body
+  background-color: #cacaca
+  font-family: "SourceSansPro", "Arial", sans-serif
+  font-size: 15px
+  line-height: 22px
+
+.header-top
+  height: 5px
+  background-color: #fdbd1f
+
+.header-main
+  padding: 0 10px 0 25px
+  background-color: #fff
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: center
+
+.logo
+  img
+    vertical-align: middle
+
+
+.main-menu
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  a
+    display: block
+    padding: 29px 21px
+    font-size: 13px
+    text-transform: uppercase
+    color: #9e8e92
+    &:hover
+      cursor: pointer
+      background-color: #fdbd1f
+      color: white
+
+@media (max-width: 800px)
+  .main-menu
+    a
+      padding: 29px 10px
+
+@media (max-width: 600px)
+  .header-main
+    flex-direction: column
+    justify-content: space-around
+    padding: 0 10px
+
+  .logo
+    margin: 20px 0 15px 0
+
+  .main-menu
+    a
+      padding: 10px 10px
+
+@media (max-width: 400px)
+  .main-menu
+    flex-direction: column
+    align-items: center
