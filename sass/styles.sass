@@ -126,12 +126,53 @@ body
 .indent-right
   margin-right: 20px
 
+.screen-3
+  background-color: #ffffff
+  display: flex
+  .screen-3-block
+    width: 50%
+    //display: flex
+    //justify-content: space-between
+    padding: 50px 42px 60px 30px
+  .block-margin
+    border-right: 1px solid #e2e2df
 
+.block-img
+  width: 90px
+  float: left
+  //margin-right: 40px
 
-
-
-
-
+.block-txt
+  margin-left: 120px
+  h2
+    font-size: 24px
+    font-weight: bold
+    color: #ab6f80
+  h3
+    font-size: 20px
+    font-weight: 300
+    color: #fdbd1f
+    margin-bottom: 25px
+    line-height: 25px
+  p
+    font-size: 15px
+    line-height: 22px
+    color: #978489
+    margin-bottom: 25px
+  button
+    background-color: #fdbd1f
+    border-radius: 5px
+    border: none
+    padding: 7px 0
+    width: 80px
+    color: white
+    font-size: 16px
+    line-height: 22px
+    font-weight: bold
+    text-align: center
+    &:hover
+      cursor: pointer
+      background-color: #d5a01c
 
 //@media (max-width: 1200px)
 //  .main-screen
@@ -141,6 +182,15 @@ body
   .main-menu
     a
       padding: 29px 10px
+
+  .screen-3
+    flex-direction: column
+    .screen-3-block
+      width: 100%
+    .block-margin
+      border-right: none
+      border-bottom:  1px solid #e2e2df
+
 
 @media (max-width: 600px)
   .header-main
@@ -169,6 +219,16 @@ body
     button
       font-size: 16px
 
+  .screen-3
+    .screen-3-block
+      padding: 50px 30px 60px 20px
+
+  .block-txt
+    h2
+      font-size: 20px
+    h3
+      font-size: 18px
+
 @media (max-width: 400px)
   .main-menu
     flex-direction: column
@@ -185,3 +245,11 @@ body
   .indent-right
     margin-right: 0
     margin-bottom: 10px
+
+  .block-img
+    float: none
+    margin: 0 auto 20px auto
+
+  .block-txt
+    margin-left: 0
+    text-align: center
