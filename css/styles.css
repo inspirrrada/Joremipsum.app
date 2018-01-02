@@ -60,6 +60,32 @@ body {
       background-color: #fdbd1f;
       color: white; }
 
+.main-screen {
+  background: url("../img/first-screen-bg.jpg") no-repeat;
+  background-position-x: center;
+  min-height: 441px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.heading-bg {
+  display: inline-block;
+  background-color: #ab6f80;
+  padding: 15px 27px;
+  margin: 0 10px 3px 10px; }
+  .heading-bg h1 {
+    font-size: 31px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0.08em;
+    line-height: 31px;
+    text-align: center; }
+
+.heading-indent {
+  margin-top: 30px;
+  padding: 15px 18px; }
+
 @media (max-width: 800px) {
   .main-menu a {
     padding: 29px 10px; } }
@@ -73,10 +99,16 @@ body {
     margin: 20px 0 15px 0; }
 
   .main-menu a {
-    padding: 10px 10px; } }
+    padding: 10px 10px; }
+
+  .heading-bg h1 {
+    font-size: 25px; } }
 @media (max-width: 400px) {
   .main-menu {
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+
+  .heading-bg h1 {
+    font-size: 22px; } }
 
 /*# sourceMappingURL=styles.css.map */
