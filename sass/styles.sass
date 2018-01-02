@@ -174,9 +174,59 @@ body
       cursor: pointer
       background-color: #d5a01c
 
-//@media (max-width: 1200px)
-//  .main-screen
-//    background-position-x: 0
+.screen-4
+  background-color: #ab6f80
+  padding: 60px 70px 60px 60px
+
+.screen4-block-img
+  float: left
+  width: 275px
+
+.screen4-block-txt
+  margin-left: 335px
+  h2
+    font-size: 24px
+    font-weight: bold
+    color: #fff
+    margin-bottom: 5px
+  h3
+    font-size: 20px
+    font-weight: 300
+    color: #fff
+    margin-bottom: 25px
+    line-height: 25px
+  p
+    font-size: 15px
+    line-height: 22px
+    color: #fdbd1f
+    margin-bottom: 25px
+  button
+    background-color: #fff
+    border-radius: 5px
+    border: none
+    padding: 7px 0
+    width: 80px
+    color: #ab6f80
+    font-size: 16px
+    line-height: 22px
+    font-weight: bold
+    text-align: center
+    &:hover
+      cursor: pointer
+      background-color: #e6e4e4
+
+
+
+
+
+
+@media (max-width: 900px)
+  .screen-4
+    padding: 60px 30px 60px 30px
+
+  .screen4-block-txt
+    margin-left: 330px
+
 
 @media (max-width: 800px)
   .main-menu
@@ -190,6 +240,15 @@ body
     .block-margin
       border-right: none
       border-bottom:  1px solid #e2e2df
+
+  .screen4-block-img
+    float: none
+    margin: 0 auto 30px auto
+    width: auto
+
+  .screen4-block-txt
+    margin-left: 0
+    text-align: center
 
 
 @media (max-width: 600px)
@@ -229,6 +288,12 @@ body
     h3
       font-size: 18px
 
+  .screen4-block-txt
+    h2
+      font-size: 20px
+    h3
+      font-size: 18px
+
 @media (max-width: 400px)
   .main-menu
     flex-direction: column
@@ -253,3 +318,6 @@ body
   .block-txt
     margin-left: 0
     text-align: center
+
+  .screen4
+    padding: 60px 20px 60px 20px
