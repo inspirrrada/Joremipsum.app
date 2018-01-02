@@ -4,6 +4,8 @@
 	<title>Title</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="slick-1.8.0/slick/slick.css">
+	<link rel="stylesheet" href="slick-1.8.0/slick/slick-theme.css">
 	<link rel="stylesheet" href="fonts/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -81,8 +83,38 @@
 				<button>More ...</button>
 			</div>
 		</div>
+		<div class="screen-5">
+			<div class="screen5-block-txt">
+				<h2>Bulum nulla necante</h2>
+				<h3>Cestibulum auctor dapibus neque lobor</h3>
+				<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam am dui mi, tincidunt quis, accumsan porttitor, facilisis bi in sem quis dui placerat ornare.</p>
+			</div>
+			<div class="screen5-block-img">
+				<div class="slider-img">
+					<img src="img/icon_laptop.png" alt="Laptop">
+				</div>
+				<div class="slider-img">
+					<img src="img/icon_laptop.png" alt="Laptop">
+				</div>
+			</div>
+		</div>
 	</main>
-	<footer></footer>
+	<footer>
+		<p>
+			Copyright(c) website name. Designed by: www.alltemplateneeds.com  /  Images from: www.wallpaperswide.com, www.photorack.net
+		</p>
+	</footer>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="slick-1.8.0/slick/slick.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.screen5-block-img').slick({
+            arrows : true
+        });
+    });
+</script>
+
 </body>
 </html>
